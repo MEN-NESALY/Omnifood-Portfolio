@@ -47,6 +47,11 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5--cols {
+  grid-template-columns: repeat(5, 1fr);
+  align-items: start;
+}
+
 .heading-primary,
 .heading-secondary {
   font-weight: 700;
@@ -83,6 +88,10 @@ body {
   background-color: #fdf2e9;
   padding: 2rem;
 } */
+
+.main-header {
+  background-color: #fcc419;
+}
 .logo {
   width: 20%;
   height: 4rem;
@@ -648,4 +657,90 @@ body {
 
 .btn:hover {
   background-color: #433020;
+}
+
+.footer {
+  padding: 2.4rem 0;
+  background-color: #fcc419;
+}
+.footer-logo {
+  width: 80%;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.2rem 0;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #474747;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #555;
+}
+
+.social-links {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.8rem 0;
+}
+
+.social-links li {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.icon-i {
+  color: #c13584;
+}
+
+.icon-f {
+  color: #4267b2;
+}
+.icon-y {
+  color: #ff0000;
+}
+.icon-t {
+  color: #1da1f2;
+}
+.icon-p {
+  color: #e60023;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #474747;
+  padding-top: 1.6rem;
+}
+
+.address-col {
+  font-size: 1.4rem;
+}
+
+.address-col p:last-child {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
 }
